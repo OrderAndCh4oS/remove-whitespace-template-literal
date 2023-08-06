@@ -1,5 +1,5 @@
 {
-  "name": "remove-whitespace-template-literal",
+  "name": "rmws",
   "version": "1.0.0",
   "description": "Remove whitespace from template literal backtick strings",
   "type": "module",
