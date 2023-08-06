@@ -39,7 +39,7 @@ Returns the processed output with trimmed indentation and removed extra spaces.
 
 ## Examples
 
-### Removing blank lines and handling multiple template strings and values
+### Removes whitespace, blank lines and handles multiple template strings and values
 
 ```javascript
 import { rmws } from 'rmws';
@@ -57,28 +57,7 @@ console.log(result);
 // The result is 10
 ```
 
-### Handling empty strings
-
-```javascript
-import { rmws } from 'rmws';
-
-const input = '';
-const result = rmws`${input}`;
-
-console.log(result); // Output: (empty string)
-```
-
-### Removing leading and trailing whitespace
-
-```javascript
-import { rmws } from 'rmws';
-
-const result = rmws`    one, two, three    `;
-
-console.log(result); // Output: one, two, three
-```
-
-### Removing leading and trailing whitespace from multiple lines
+### Removes leading and trailing whitespace
 
 ```javascript
 import { rmws } from 'rmws';
@@ -94,7 +73,7 @@ console.log(result);
 // four, five, six
 ```
 
-### Removing multiple blank lines
+### Removes multiple blank lines
 
 ```javascript
 import { rmws } from 'rmws';
