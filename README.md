@@ -7,13 +7,13 @@
 You can install the `rmws` package via npm:
 
 ```bash
-npm install rmws
+npm install @orderandchaos/rmws
 ```
 
 ## Usage
 
 ```javascript
-import { rmws } from 'rmws';
+import { rmws } from '@orderandchaos/rmws';
 
 const result = rmws`
     Hello,   
@@ -42,7 +42,7 @@ Returns the processed output with trimmed indentation and removed extra spaces.
 ### Removes whitespace, blank lines and handles multiple template strings and values
 
 ```javascript
-import { rmws } from 'rmws';
+import { rmws } from '@orderandchaos/rmws';
 
 const result = rmws`
     The value is ${5}
@@ -60,7 +60,7 @@ console.log(result);
 ### Removes leading and trailing whitespace
 
 ```javascript
-import { rmws } from 'rmws';
+import { rmws } from '@orderandchaos/rmws';
 
 const result = rmws`    
     one, two, three    
@@ -76,7 +76,7 @@ console.log(result);
 ### Removes multiple blank lines
 
 ```javascript
-import { rmws } from 'rmws';
+import { rmws } from '@orderandchaos/rmws';
 
 const result = rmws`    
     
