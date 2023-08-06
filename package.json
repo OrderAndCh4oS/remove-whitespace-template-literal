@@ -1,0 +1,16 @@
+{
+  "name": "remove-whitespace-template-literal",
+  "version": "1.0.0",
+  "description": "Remove whitespace from template literal backtick strings",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": ["backtick", "remove whitespace", "template literals"],
+  "author": "orderandchaos",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.6.2"
+  }
+}
