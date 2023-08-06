@@ -30,7 +30,7 @@ console.log(result);
 
 ## API
 
-### `rmws(strings: TemplateStringsArray, ...values: (string | number)[]): string`
+`rmws(strings: TemplateStringsArray, ...values: (string | number)[]): string`
 
 - `strings`: The array of template strings.
 - `...values`: The list of values to be interpolated into the template.
